@@ -1,0 +1,29 @@
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d3d3d3;
+  border-radius: 0 0 15px 15px;
+  border-top: 2px solid #808080;
+}
+
+.statsContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10% 0;
+    width: 100%;
+}
+.statsContainer:not(:last-child) {
+  border-right: 2px solid #808080;
+}
+
+.label {
+    font-size: 16px;
+
+}
+
+.value {
+    font-size: 16px;
+    font-weight: 600;
+}
